@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+
+}
+
+
+.child-div {
+    width: 40%;
+    height: 100px;
+
+}
+
+.child-div2 {
+    width: 60%;
+    height: 100px;
+
+}
+
+.laza-image {
+    width: 24%;
+    padding: 1pc;
+    margin-left: 2pc;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.child-div3 {
+    margin-top: 2pc;
+    display: flex;
+    justify-content: end;
+    height: max-content;
+}
+
+.image-1 {
+    width: 100%;
+}
+
+.image-child {
+    width: 100%;
+    height: max-content;
+}
+
+
+
+.whatsapp-log {
+    width: 10%;
+    height: 30px;
+    position: absolute;
+    top: 4px;
+}
+
+.icon-div {
+    width: 18%;
+    margin-left: 1pc;
+
+}
+
+.icon-div img {
+    width: 22px;
+    padding: 4px;
+}
+
+.heading {
+
+    width: 54%;
+    margin-top: 5px;
+}
+
+.head-text {
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    display: flex;
+    margin: 50px 0px;
+}
+
+.text-1 {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-top: 2pc;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.fruits {
+    width: 100%;
+}
+
+.item-1 {
+    margin-top: 4pc;
+    text-align: center;
+}
+
+.blog-div {
+    width: 100%;
+    min-height: 50px;
+    margin-top: 5pc;
+    text-align: center;
+
+    h2 {
+        cursor: default;
+    }
+}
+
+strong {
+    color: black;
+    font-size: larger;
+}
+
+.Blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-column-gap: 2pc;
+    cursor: default
+}
+
+.para-1 {
+    color: black;
+    margin-top: 2pc;
+    font-family: sans-serif;
+}
+
+.para-2 {
+    color: black;
+    font-family: math;
+    margin-top: 3pc;
+}
+
+.blog-1 {
+    min-height: 330px;
+    margin-top: 3pc;
+    box-shadow: 0px 0px 25px 5px lightblue;
+}
+
+.footer-image {
+    margin-top: 2pc;
+    width: 100%;
+    height: 196px;
+    cursor: default
+}
+
+.footer-div {
+    background-color: black;
+    max-width: 100%;
+    min-height: 220px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-image-1 {
+    width: auto;
+    height: 135px;
+    margin-left: 1pc;
+    margin-top: 2pc;
+
+}
+
+li {
+    list-style-type: none;
+    margin-top: 1pc;
+    color: #be9509;
+    margin-right: 5pc;
+    cursor: pointer;
+}
+
+
+.image-new {
+    width: 100%;
+
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 218px 1fr 1fr 232px 1fr 1fr;
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    font-family: auto;
+    border-bottom: 1px solid rgb(159, 154, 150);
+    cursor: default;
+}
+
+.logo-1 {
+    margin-top: 2pc;
+    width: 70%;
+}
+
+.foot-img {
+    width: 15%;
+    margin-top: 1pc;
+}
+
+.child-4 {
+    margin-top: 1pc;
+
+}
+
+.footer-end {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.footer-child {
+    color: rgb(255, 193, 7);
+    font-family: serif;
+    width: 50%;
+
+    p {
+        padding: 25px;
+    }
+}
+
+.footer-child-2 {
+    width: 50%;
+    background-color: chartreuse;
+    justify-content: flex-end;
+}
+
+.whatsapp {
+    width: 6%;
+}
